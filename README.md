@@ -24,10 +24,9 @@ Collab Draw uses a permission system to control access to different functionalit
 
 - **Edit ✏️:** Users can create and modify content on the whiteboard.
 
-<<<<<<< HEAD
+
 - **Admin 🧑‍💼:** Users with administrative privileges can manage permissions and settings.
 =======
     Admin: Users with administrative privileges can manage permissions and settings.
 
-    
->>>>>>> 708b4f3 (test commit README.md)
+
