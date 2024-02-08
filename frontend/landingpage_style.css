@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 50px;
+    padding: 0;
+    background-color: rgb(189, 228, 228);
+}
+
+header {
+    font-family: 'Libre Baskerville', serif;
+    background-color: #331e5b;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px
+}
+
+#collab-draw {
+    font-size: 1.5em;
+    margin-left: 20px;
+}
+
+nav {
+    display: flex;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+#bodoy2 {
+    background-color: aliceblue;
+}
+
+#lp-text {
+    font-family: 'Protest Guerrilla', sans-serif;
+    text-align: center;
+    font-size: 60px;
+}
+
+.lp-s-text {
+    color: #4b3474;
+}
+
+.lp-s-text-pn {
+    font-size: 70px;
+}
+
+#button {
+    display: flex;
+    justify-content: center;
+}
+button {
+    font-family: 'Libre Baskerville', serif;
+    text-align: center;
+    font-size: 40px;
+    border-radius: 5px;
+    background-color: #bba7de;
+}
