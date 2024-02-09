@@ -1,13 +1,21 @@
 body {
-    font-family: Arial, sans-serif;
     margin: 50px;
-    padding: 0;
-    background-color: rgb(189, 228, 228);
+    background: rgb(35,56,138);
+    background: linear-gradient(90deg, rgba(35,56,138,1) 0%, rgba(72,71,78,1) 46%, rgba(5,1,29,1) 93%);    
+    border-radius: 10px;
+    border: 2px solid #310c59;
+}
+
+#container {
+    background: rgb(3,5,13);
+    background: linear-gradient(90deg, rgba(3,5,13,1) 0%, rgba(72,71,78,1) 46%, rgba(5,1,29,1) 93%);
+    border-radius: 10px;
 }
 
 header {
     font-family: 'Libre Baskerville', serif;
-    background-color: #331e5b;
+    background: rgb(27,29,37);
+    background: linear-gradient(90deg, rgba(27,29,37,1) 0%, rgba(72,71,78,1) 46%, rgba(5,1,29,1) 93%);
     color: white;
     padding: 10px;
     display: flex;
@@ -26,15 +34,12 @@ nav {
 }
 
 nav a {
-    color: white;
+    color: #4b3474;
     text-decoration: none;
     margin: 0 15px;
     font-weight: bold;
 }
 
-#bodoy2 {
-    background-color: aliceblue;
-}
 
 #lp-text {
     font-family: 'Protest Guerrilla', sans-serif;
@@ -47,7 +52,15 @@ nav a {
 }
 
 .lp-s-text-pn {
+    color: aliceblue;
     font-size: 70px;
+}
+
+#lp-text-desc {
+    font-family: 'Libre Baskerville', serif;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
 }
 
 #button {
@@ -58,6 +71,42 @@ button {
     font-family: 'Libre Baskerville', serif;
     text-align: center;
     font-size: 40px;
-    border-radius: 5px;
-    background-color: #bba7de;
+    border-radius: 20px;
+    background-color: #322d39;
+}
+.feature-heading {
+    text-align: center;
+    color: rgb(161, 155, 155);
+    padding-top: 30px;
+}
+
+.feature-desc {
+    text-align: center;
+    color: rgb(181, 181, 181);
+    font-size: 50px;
+}
+
+.feature-container {
+    display: flex;
+    background: rgb(27,29,37);
+    background: linear-gradient(90deg, rgba(27,29,37,1) 0%, rgba(72,71,78,1) 46%, rgba(5,1,29,1) 93%);
+}
+
+.box{
+    flex: 1;
+
+    height: 100%;
+    text-align: center;
+}
+
+.image {
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.feature-text {
+    font-family: 'Lora', serif;
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+    font-size: 35px;
 }
