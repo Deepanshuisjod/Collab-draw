@@ -1,18 +1,21 @@
+html {
+    background-color: black;
+}
 #form-container {
+    background-color: #FFDEE9;
+    background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 50%);
     display: flex;
     justify-content: center;
+    align-items: center; /* Add this line to center vertically */
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    margin-top: 200px;
-    margin-left: 500px;
-    margin-right: 500px;
+    height: 100vh; /* Set the height to 100% of the viewport height for full-page centering */
 }
 
-#components {
+#components , #footer{
     margin: 30px;
 }
 
 ::placeholder {
-    text-align: center;
     font-size: 20px;
 }
 
@@ -22,4 +25,17 @@ input {
     box-sizing: border-box;
     margin-bottom: 10px;
     border-radius: 5px;
+}
+
+input:valid{
+    border-color: black;
+}
+input:invalid{
+    border-color: red;
+}
+
+#button {
+    background-color: black;
+    border-radius: 8px 8px 8px 8px;
+    color: azure;
 }
