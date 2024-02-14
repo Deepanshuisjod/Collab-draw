@@ -12,18 +12,28 @@
         <form action="#" id="form">
             <div id="components">
                 <div>
-                    <label for="username" class="username"></label>
+                    <label for="username" class="username">Username</label>
                     <input type="text" required placeholder="Username">
                 </div>
                 <br><br>
                 <div>
-                    <label for="password" class="username"></label>
-                    <input type="password" required placeholder="password" minlength="8" >
+                    <label for="password" class="password">Password</label>
+                    <input type="password" required placeholder="********" minlength="8" >
                 </div>
                 <br><br>
                 <div>
-                    <label for="email" class="email"></label>
+                    <label for="comf-password" class="comf-password">Confirm Password</label>
+                    <input type="password" placeholder="********" minlength="8" required id="conf-password">
+                </div>
+                <br><br>
+                <div>
+                    <label for="email" class="email">Email</label>
                     <input type="email" placeholder="you@example.com" required>
+                </div>
+            </div>
+            <div id="footer">
+                <div id="button-container">
+                    <button type="submit" id="button">Create Account</button>
                 </div>
             </div>
         </form>
